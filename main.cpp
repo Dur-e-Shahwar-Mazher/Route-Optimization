@@ -42,8 +42,8 @@ int main()
         dynRoute.addCity(i, names[i]);
     }
 
-    route.readFile("graph_small.txt");
-    dynRoute.readFile("graph_small.txt");
+    route.readFile("data.txt");
+    dynRoute.readFile("data.txt");
 
     int choice;
     do
